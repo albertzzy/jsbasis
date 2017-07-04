@@ -55,3 +55,6 @@
 
 
 
+## http
+    [PUT请求方法](http://www.jianshu.com/p/5d8fdf0dd149)
+    [HEAD请求方法,204，206](http://blog.163.com/wang_hai_fei/blog/static/30902031201333115425644/)
