@@ -37,10 +37,11 @@
         真实的DOM被渲染出来后调用，在该方法中可通过this.getDOMNode()访问到真实的DOM元素。此时已可以使用其他类库来操作这个DOM。
         在服务端中，该方法不会被调用。
 
-        6.componentWillReceiveProps
+        6.componentWillReceiveProps(nextProps)
         组件接收到新的props时调用，并将其作为参数nextProps使用，此时可以更改组件props及state。
 
         ```javascript
+
             componentWillReceiveProps: function(nextProps) {
                 if (nextProps.bool) {
                     this.setState({
@@ -48,16 +49,17 @@
                     });
                 }
             }
+
         ```
 
-        7.shouldComponentUpdate
+        7.shouldComponentUpdate(nextProps, nextState)
         组件是否应当渲染新的props或state，返回false表示跳过后续的生命周期方法，通常不需要使用以避免出现bug。在出现应用的瓶颈时，可通过该方法进行适当的优化。
         在首次渲染期间或者调用了forceUpdate方法后，该方法不会被调用
 
-        8.componentWillUpdate
+        8.componentWillUpdate(nextProps, nextState)
         接收到新的props或者state后，进行渲染之前调用，此时不允许更新props或state。
 
-        9.componentDidUpdate
+        9.componentDidUpdate(prevProps, prevState)
         完成渲染新的props或者state后调用，此时可以访问到新的DOM元素。
 
         10.componentWillUnmount
@@ -112,3 +114,14 @@
     [HEAD请求方法,204，206](http://blog.163.com/wang_hai_fei/blog/static/30902031201333115425644/)
 
 ## const vs Symbol
+    [Symbol](http://cnodejs.org/topic/56d1aee8a3e318b766ffb9bc)
+    const 强调的是不变性（指向不能变，指向的值可以变）
+    Symbol强调的是唯一性（Symbol.for重复取为同一值， Symbol只能通过付给一个值取到，重复取为不同值）
+
+
+## 序列化
+    [http://www.cnblogs.com/craftsman-gao/p/5130567.html](http://www.cnblogs.com/craftsman-gao/p/5130567.html)
+
+## mongoose
+    schema - model --instance--> document
+    model
