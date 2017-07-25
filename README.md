@@ -129,6 +129,7 @@ Symbol强调的是唯一性（Symbol.for重复取为同一值， Symbol只能通
 ## xhr/xhr2
 
 文件上传失败的可能原因：
-    You shouldNEVERset that header yourself. We set the header properly with the boundary. If you set that header, we won't and your server won't know what boundary to expect (since it is added to the header). Remove your custom Content-Type header and you'll be fine.
+You shouldNEVERset that header yourself. We set the header properly with the boundary. If you set that header, we won't and your server won't know what boundary to expect (since it is added to the header). Remove your custom Content-Type header and you'll be fine.
 
 [refer](http://stackoverflow.com/questions/17415084/multipart-data-post-using-Python-requests-no-multipart-boundary-was-found)
+[xhr/xhr2](http://www.ruanyifeng.com/blog/2012/09/xmlhttprequest_level_2.html)
