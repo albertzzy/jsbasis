@@ -100,12 +100,11 @@
     };
 ```
 
-    要想yield一个异步操作，此异步操作要是一个thunk函数，但
-    thunk函数只是Generator函数自动执行的一种方案，promise也是
+要想yield一个异步操作，此异步操作要是一个thunk函数，但thunk函数只是Generator函数自动执行的一种方案，promise也是
 
-    [thunk](http://www.ruanyifeng.com/blog/2015/05/thunk.html)
+[thunk](http://www.ruanyifeng.com/blog/2015/05/thunk.html)
 
-    [co](http://www.ruanyifeng.com/blog/2015/05/co.html)
+[co](http://www.ruanyifeng.com/blog/2015/05/co.html)
 
 
 ## http
@@ -115,8 +114,8 @@
 
 ## const vs Symbol
 [Symbol](http://cnodejs.org/topic/56d1aee8a3e318b766ffb9bc)
-    const 强调的是不变性（指向不能变，指向的值可以变）
-    Symbol强调的是唯一性（Symbol.for重复取为同一值， Symbol只能通过付给一个值取到，重复取为不同值）
+const 强调的是不变性（指向不能变，指向的值可以变）
+Symbol强调的是唯一性（Symbol.for重复取为同一值， Symbol只能通过付给一个值取到，重复取为不同值）
 
 
 ## 序列化
@@ -129,7 +128,7 @@
 
 ## xhr/xhr2
 
-    文件上传失败的可能原因：
+文件上传失败的可能原因：
     You shouldNEVERset that header yourself. We set the header properly with the boundary. If you set that header, we won't and your server won't know what boundary to expect (since it is added to the header). Remove your custom Content-Type header and you'll be fine.
 
 [refer](http://stackoverflow.com/questions/17415084/multipart-data-post-using-Python-requests-no-multipart-boundary-was-found)
