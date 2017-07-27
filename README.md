@@ -140,3 +140,5 @@ You shouldNEVERset that header yourself. We set the header properly with the bou
 ```javascript
 window.URL.createObjectURL(this.files[0])
 ```
+##webpack
+[https://zhuanlan.zhihu.com/p/25954788](https://zhuanlan.zhihu.com/p/25954788)
