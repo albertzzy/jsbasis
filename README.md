@@ -134,6 +134,11 @@ You shouldNEVERset that header yourself. We set the header properly with the bou
 [xhr/xhr2](http://www.ruanyifeng.com/blog/2012/09/xmlhttprequest_level_2.html)
 
 
+## 获取blob
+
+```javascript
+window.URL.createObjectURL(this.files[0])
+```
 ##webpack
 [https://zhuanlan.zhihu.com/p/25954788](https://zhuanlan.zhihu.com/p/25954788)
 [https://zhuanlan.zhihu.com/p/27980441](https://zhuanlan.zhihu.com/p/27980441)
