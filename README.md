@@ -138,6 +138,8 @@ You shouldNEVERset that header yourself. We set the header properly with the bou
 ## 获取blob
 
 ```javascript
+//兼容ie10+
+
 //方式1
 window.URL.createObjectURL(this.files[0])
 //方式2
