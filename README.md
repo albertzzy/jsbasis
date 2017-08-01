@@ -138,7 +138,12 @@ You shouldNEVERset that header yourself. We set the header properly with the bou
 ## 获取blob
 
 ```javascript
+//方式1
 window.URL.createObjectURL(this.files[0])
+//方式2
+var fr = new FileReader();
+fr.readAsDataURL(file);
+
 ```
 ##webpack
 [https://zhuanlan.zhihu.com/p/25954788](https://zhuanlan.zhihu.com/p/25954788)
