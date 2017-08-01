@@ -2,11 +2,10 @@
 
 ## 闭包与内存泄漏
 
-[闭包内存泄漏](http://www.ruanyifeng.com/blog/2017/04/memory-leak.html?utm_source=tuicool&utm_medium=referral)
-
-[内存泄漏](http://www.cnblogs.com/chuaWeb/p/5196330.html) 
-
-[闭包](http://www.jb51.net/article/83524.htm)
+[http://www.ruanyifeng.com/blog/2017/04/memory-leak.html?utm_source=tuicool&utm_medium=referral](http://www.ruanyifeng.com/blog/2017/04/memory-leak.html?utm_source=tuicool&utm_medium=referral)
+[http://www.cnblogs.com/chuaWeb/p/5196330.html](http://www.cnblogs.com/chuaWeb/p/5196330.html) 
+[http://www.jb51.net/article/83524.htm](http://www.jb51.net/article/83524.htm)
+[http://www.zymseo.com/306.html](http://www.zymseo.com/306.html)
 
 ## 常用放法
     RegExpObject.exec(string)
@@ -149,3 +148,9 @@ fr.readAsDataURL(file);
 ```
 ##webpack
 [https://zhuanlan.zhihu.com/p/25954788](https://zhuanlan.zhihu.com/p/25954788)
+[https://zhuanlan.zhihu.com/p/27980441](https://zhuanlan.zhihu.com/p/27980441)
+[https://devopen.club/course/webpack2.html](https://devopen.club/course/webpack2.html)
+
+##mobx
+[https://zhuanlan.zhihu.com/p/25585910](https://zhuanlan.zhihu.com/p/25585910)
+
