@@ -147,3 +147,5 @@ window.URL.createObjectURL(this.files[0])
 ##mobx
 [https://zhuanlan.zhihu.com/p/25585910](https://zhuanlan.zhihu.com/p/25585910)
 
+##dom diff
+[https://www.zhihu.com/question/31809713](https://www.zhihu.com/question/31809713)
