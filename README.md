@@ -156,3 +156,16 @@ fr.readAsDataURL(file);
 
 ##dom diff
 [https://www.zhihu.com/question/31809713](https://www.zhihu.com/question/31809713)
+
+
+##quirk equation
+```js
+//this dude
+null == undefined // true
+
+null == false //false
+undefined == false //false
+```
+
+##算法时间复杂度计算
+[http://blog.csdn.net/zolalad/article/details/11848739](http://blog.csdn.net/zolalad/article/details/11848739)
