@@ -169,3 +169,6 @@ undefined == false //false
 
 ##算法时间复杂度计算
 [http://blog.csdn.net/zolalad/article/details/11848739](http://blog.csdn.net/zolalad/article/details/11848739)
+
+##webworker &　react
+[http://blog.nparashuram.com/2016/02/using-webworkers-to-make-react-faster.html](http://blog.nparashuram.com/2016/02/using-webworkers-to-make-react-faster.html)
