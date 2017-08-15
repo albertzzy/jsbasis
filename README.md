@@ -177,3 +177,5 @@ undefined == false //false
 [https://zhuanlan.zhihu.com/p/28461857?group_id=879410108969410560](https://zhuanlan.zhihu.com/p/28461857?group_id=879410108969410560)
 [https://zhuanlan.zhihu.com/p/25459319](https://zhuanlan.zhihu.com/p/25459319)
 
+##react error handle
+[https://facebook.github.io/react/blog/2017/07/26/error-handling-in-react-16.html](https://facebook.github.io/react/blog/2017/07/26/error-handling-in-react-16.html)
