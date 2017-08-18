@@ -179,3 +179,6 @@ undefined == false //false
 
 ##react error handle
 [https://facebook.github.io/react/blog/2017/07/26/error-handling-in-react-16.html](https://facebook.github.io/react/blog/2017/07/26/error-handling-in-react-16.html)
+
+##内存泄漏排查
+[http://frontenddev.org/link/js-memory-leak-screening-method-chrome-profiles.html](http://frontenddev.org/link/js-memory-leak-screening-method-chrome-profiles.html)
