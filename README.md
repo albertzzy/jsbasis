@@ -182,3 +182,7 @@ undefined == false //false
 
 ##内存泄漏排查
 [http://frontenddev.org/link/js-memory-leak-screening-method-chrome-profiles.html](http://frontenddev.org/link/js-memory-leak-screening-method-chrome-profiles.html)
+[https://jinlong.github.io/2016/05/01/4-Types-of-Memory-Leaks-in-JavaScript-and-How-to-Get-Rid-Of-Them/](https://jinlong.github.io/2016/05/01/4-Types-of-Memory-Leaks-in-JavaScript-and-How-to-Get-Rid-Of-Them/)
+
+##双飞翼布局
+[http://www.cnblogs.com/dojo-lzz/p/4621627.html](http://www.cnblogs.com/dojo-lzz/p/4621627.html)
